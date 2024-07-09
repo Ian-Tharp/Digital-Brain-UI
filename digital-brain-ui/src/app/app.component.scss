@@ -3,8 +3,8 @@ html {
 }
 
 .content {
-  height: 100vh;
   display: flex;
+  margin: 1rem 0;
 }
 
 .row {
@@ -21,10 +21,9 @@ html {
 }
 
 .side-nav {
-  width: 10%;
-  height: 100vh;
-  margin: 1rem;
+  width: 5rem;
   border: 2px solid white;
+  justify-content: center;
 }
 
 .router-outlet {
